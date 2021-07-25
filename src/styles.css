@@ -1,0 +1,20 @@
+input {
+  padding: 1rem;
+  width: 40%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  display: inline;
+}
+.emoji {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 4rem;
+}
