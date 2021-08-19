@@ -55,6 +55,8 @@ export default function App() {
         if (userInput.toLowerCase() === emojiText[i].toLowerCase()) {
           console.log(emojiText[i], knownEmoji[i]);
           result = knownEmoji[i];
+        } else {
+          result = "failure to find it";
         }
       }
     }
